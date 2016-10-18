@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		62E1F4B01D8C4E400010389A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1F4AF1D8C4E400010389A /* main.m */; };
+		62E1F4BC1D8C51090010389A /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1F4BB1D8C51090010389A /* Persona.m */; };
+		62E1F4BF1D8C513A0010389A /* Direccion.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1F4BE1D8C513A0010389A /* Direccion.m */; };
+		62E1F4C21D8C536D0010389A /* Bombero.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1F4C11D8C536D0010389A /* Bombero.m */; };
+		62E1F4C51D8C53C00010389A /* Profesor.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1F4C41D8C53C00010389A /* Profesor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		62E1F4AC1D8C4E400010389A /* Ejercicio 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ejercicio 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E1F4AF1D8C4E400010389A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62E1F4BA1D8C51090010389A /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		62E1F4BB1D8C51090010389A /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
+		62E1F4BD1D8C513A0010389A /* Direccion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direccion.h; sourceTree = "<group>"; };
+		62E1F4BE1D8C513A0010389A /* Direccion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direccion.m; sourceTree = "<group>"; };
+		62E1F4C01D8C536D0010389A /* Bombero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bombero.h; sourceTree = "<group>"; };
+		62E1F4C11D8C536D0010389A /* Bombero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bombero.m; sourceTree = "<group>"; };
+		62E1F4C31D8C53C00010389A /* Profesor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profesor.h; sourceTree = "<group>"; };
+		62E1F4C41D8C53C00010389A /* Profesor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profesor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				62E1F4AF1D8C4E400010389A /* main.m */,
+				62E1F4BA1D8C51090010389A /* Persona.h */,
+				62E1F4BB1D8C51090010389A /* Persona.m */,
+				62E1F4BD1D8C513A0010389A /* Direccion.h */,
+				62E1F4BE1D8C513A0010389A /* Direccion.m */,
+				62E1F4C01D8C536D0010389A /* Bombero.h */,
+				62E1F4C11D8C536D0010389A /* Bombero.m */,
+				62E1F4C31D8C53C00010389A /* Profesor.h */,
+				62E1F4C41D8C53C00010389A /* Profesor.m */,
 			);
 			path = "Ejercicio 2";
 			sourceTree = "<group>";
@@ -118,6 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E1F4C51D8C53C00010389A /* Profesor.m in Sources */,
+				62E1F4BF1D8C513A0010389A /* Direccion.m in Sources */,
+				62E1F4BC1D8C51090010389A /* Persona.m in Sources */,
+				62E1F4C21D8C536D0010389A /* Bombero.m in Sources */,
 				62E1F4B01D8C4E400010389A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
